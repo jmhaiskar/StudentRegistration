@@ -15,7 +15,7 @@ def AddStudent(fname, lname, email, address, dob):
     fname = input("Please enter your first name")
     lname = input("Please enter your last name")
     email= input("Please enter your email")
-    address = input("Please enter your address")
+#    address = input("Please enter your address")
     dob = input("Please enter your date of birth") #remember to convert to int
 #     course=[]
 #     courseNum=int(input("How many courses would you like to enter?"))
@@ -25,8 +25,8 @@ def AddStudent(fname, lname, email, address, dob):
 #                 info={courseName, courseGrade}
 #                 course.append(info)
                 
-    dbcollection.insert_one({"_id": studentId, "firstname:": fname,"lastname:": lname, "email:": email, "address:":address, "dob:":dob})
-    
+    dbcollection.insert_one({"_id": studentId, "firstname:": fname,"lastname:": lname, "email:": email,  "dob:":dob})
+   # "address:":address,
     gradeAssigner()   
                   
 
