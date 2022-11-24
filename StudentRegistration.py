@@ -17,13 +17,13 @@ def AddStudent(fname, lname, email, address, dob):
     email= input("Please enter your email")
     address = input("Please enter your address")
     dob = input("Please enter your date of birth") #remember to convert to int
-    course=[]
-    courseNum=int(input("How many courses would you like to enter?"))
-            for i in range(0,courseNum):
-                courseName = input("Name of the course: ")
-                courseGrade=int(input("What is your grade? "))
-                info={courseName, courseGrade}
-                course.append(info)
+#     course=[]
+#     courseNum=int(input("How many courses would you like to enter?"))
+#             for i in range(0,courseNum):
+#                 courseName = input("Name of the course: ")
+#                 courseGrade=int(input("What is your grade? "))
+#                 info={courseName, courseGrade}
+#                 course.append(info)
                 
     dbcollection.insert_one({"_id": studentId, "firstname:": fname,"lastname:": lname, "email:": email, "address:":address, "dob:":dob})
     
@@ -34,11 +34,7 @@ def AddStudent(fname, lname, email, address, dob):
 # Method to delete a student
 def DeleteStudent(studentId):
     dbcollection.delete_one({"_id": studentId})
-    
-    post={"studentId":0, "firstname:": "Josh","lastname:": "Lomeli"}    
-    dbcollection.insert_one(post)
-
-#dbcollection.delete_one("studentId": studentId)
+   
 
 def gradeAssigner()
     courseNum = int(input("How many course to input? "))
