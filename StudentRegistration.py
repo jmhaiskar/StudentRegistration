@@ -20,12 +20,16 @@ def AddStudent(fname, lname, email, address, dob):
     course=[]
     courseNum=int(input("How many courses would you like to enter?"))
             for i in range(0,courseNum):
-                courseName = input("Name of the car: ")
-                course.append(carName)
+                courseName = input("Name of the course: ")
+                courseGrade=int(input("What is your grade? "))
+                info={courseName, courseGrade}
+                course.append(info)
                 
-    #gradeAssigner() function call DISCUSS WITH GROUP        
-                  
     dbcollection.insert_one({"_id": studentId, "firstname:": fname,"lastname:": lname, "email:": email, "address:":address, "dob:":dob})
+    
+    gradeAssigner()   
+                  
+
     
 # Method to delete a student
 def DeleteStudent(studentId):
