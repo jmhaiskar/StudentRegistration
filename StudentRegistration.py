@@ -112,3 +112,9 @@ def gradeAssigner()
     print (CGpa)
 
 
+def show_Report():
+    rData = list(dbcollection.find({}).limit(10))
+    display(rData)
+    
+def display(data):
+    print (data)
