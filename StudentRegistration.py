@@ -27,7 +27,7 @@ def AddStudent(fname, lname, email, address, dob):
                 
     dbcollection.insert_one({"_id": studentId, "firstname:": fname,"lastname:": lname, "email:": email,  "dob:":dob})
    # "address:":address,
-    gradeAssigner()   
+      
                   
 
     
