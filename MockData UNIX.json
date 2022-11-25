@@ -1,15 +1,15 @@
-[{"id":1,"first_name":"Stuart","last_name":"Rapelli","email":"srapelli0@techcrunch.com","address":"02151 Amoth Avenue","dob":"07/25/1970"},
-{"id":2,"first_name":"Jeddy","last_name":"Pasfield","email":"jpasfield1@macromedia.com","address":"72 Milwaukee Park","dob":"05/02/1989"},
-{"id":3,"first_name":"Haven","last_name":"Charke","email":"hcharke2@imageshack.us","address":"6369 Tomscot Street","dob":"06/24/1989"},
-{"id":4,"first_name":"Terese","last_name":"Khomishin","email":"tkhomishin3@ted.com","address":"850 Mccormick Drive","dob":"01/20/1999"},
-{"id":5,"first_name":"Douglas","last_name":"Scaife","email":"dscaife4@home.pl","address":"78080 Artisan Drive","dob":"06/24/1993"},
-{"id":6,"first_name":"Lisabeth","last_name":"O'Toole","email":"lotoole5@google.co.uk","address":"53 Schurz Place","dob":"05/16/1976"},
-{"id":7,"first_name":"Tannie","last_name":"Tomlinson","email":"ttomlinson6@vk.com","address":"5 Magdeline Junction","dob":"01/05/1980"},
-{"id":8,"first_name":"Elva","last_name":"Pulman","email":"epulman7@china.com.cn","address":"96 Ludington Plaza","dob":"09/30/1982"},
-{"id":9,"first_name":"Dael","last_name":"Oloshin","email":"doloshin8@facebook.com","address":"0741 Chinook Street","dob":"11/16/1984"},
-{"id":10,"first_name":"Jillayne","last_name":"Kenealy","email":"jkenealy9@boston.com","address":"51 Buell Alley","dob":"04/23/1973"},
-{"id":11,"first_name":"Frasquito","last_name":"Ramelot","email":"framelota@mtv.com","address":"15369 Shoshone Pass","dob":"12/13/1974"},
-{"id":12,"first_name":"Shaine","last_name":"McEllen","email":"smcellenb@webmd.com","address":"790 Veith Lane","dob":"06/20/1980"},
-{"id":13,"first_name":"Salvidor","last_name":"Barrowclough","email":"sbarrowcloughc@edublogs.org","address":"547 American Pass","dob":"10/08/1976"},
-{"id":14,"first_name":"Viviyan","last_name":"Saladine","email":"vsaladined@shutterfly.com","address":"5605 Mayfield Court","dob":"05/07/1970"},
-{"id":15,"first_name":"Jillana","last_name":"Whittington","email":"jwhittingtone@51.la","address":"308 Harper Hill","dob":"10/26/1973"}]
+[{"id":1000,"first_name":"Stuart","last_name":"Rapelli","email":"srapelli0@techcrunch.com","address":"02151 Amoth Avenue","dob":"07/25/1970", "courses":[{"CPSC 1160": "60"},{"CPSC 2150":"85"},{"CPSC 1181": "45"}]}
+{"id":1001,"first_name":"Jeddy","last_name":"Pasfield","email":"jpasfield1@macromedia.com","address":"72 Milwaukee Park","dob":"05/02/1989"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1002,"first_name":"Haven","last_name":"Charke","email":"hcharke2@imageshack.us","address":"6369 Tomscot Street","dob":"06/24/1989"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1003,"first_name":"Terese","last_name":"Khomishin","email":"tkhomishin3@ted.com","address":"850 Mccormick Drive","dob":"01/20/1999"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1004,"first_name":"Douglas","last_name":"Scaife","email":"dscaife4@home.pl","address":"78080 Artisan Drive","dob":"06/24/1993"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1005,"first_name":"Lisabeth","last_name":"O'Toole","email":"lotoole5@google.co.uk","address":"53 Schurz Place","dob":"05/16/1976"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1006,"first_name":"Tannie","last_name":"Tomlinson","email":"ttomlinson6@vk.com","address":"5 Magdeline Junction","dob":"01/05/1980"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1007,"first_name":"Elva","last_name":"Pulman","email":"epulman7@china.com.cn","address":"96 Ludington Plaza","dob":"09/30/1982"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1008,"first_name":"Dael","last_name":"Oloshin","email":"doloshin8@facebook.com","address":"0741 Chinook Street","dob":"11/16/1984"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1009,"first_name":"Jillayne","last_name":"Kenealy","email":"jkenealy9@boston.com","address":"51 Buell Alley","dob":"04/23/1973"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1010,"first_name":"Frasquito","last_name":"Ramelot","email":"framelota@mtv.com","address":"15369 Shoshone Pass","dob":"12/13/1974"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1011,"first_name":"Shaine","last_name":"McEllen","email":"smcellenb@webmd.com","address":"790 Veith Lane","dob":"06/20/1980"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1012,"first_name":"Salvidor","last_name":"Barrowclough","email":"sbarrowcloughc@edublogs.org","address":"547 American Pass","dob":"10/08/1976"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1013,"first_name":"Viviyan","last_name":"Saladine","email":"vsaladined@shutterfly.com","address":"5605 Mayfield Court","dob":"05/07/1970"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}
+{"id":1014,"first_name":"Jillana","last_name":"Whittington","email":"jwhittingtone@51.la","address":"308 Harper Hill","dob":"10/26/1973"}, "courses":[{"CPSC 1280": "56"},{"CPSC 1150":"85"},{"CPSC 1050": "45"}]}]
