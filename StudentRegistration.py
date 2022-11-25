@@ -17,16 +17,16 @@ def AddStudent(fname, lname, email, address, dob):
     email= input("Please enter your email")
 #    address = input("Please enter your address")
     dob = input("Please enter your date of birth") #remember to convert to int
-#     course=[]
-#     courseNum=int(input("How many courses would you like to enter?"))
-#             for i in range(0,courseNum):
-#                 courseName = input("Name of the course: ")
-#                 courseGrade=int(input("What is your grade? "))
-#                 info={courseName, courseGrade}
-#                 course.append(info)
+    courseInfo=[]
+    courseNum=int(input("How many courses would you like to enter?"))
+            for i in range(0,courseNum):
+                courseName = input("Name of the course: ")
+                courseGrade=int(input("What is your grade? "))
+                info= {"course" : courseName , "grade" : courseGrade}
+                courseInfo.append(info)
                 
-    dbcollection.insert_one({"_id": studentId, "firstname:": fname,"lastname:": lname, "email:": email,  "dob:":dob})
-   # "address:":address,
+    dbcollection.insert_one({"_id": studentId, "firstname": fname,"lastname": lname, "email": email, "address":address,  "dob":dob, "courseInfo":courseInfo})
+   
     "courseInfo" : [{"course" : 1170 , "grade" : 80},{"course" : 1240 , "grade" : 50}]}      
                   
 
