@@ -119,7 +119,7 @@ def gradeAssigner()
 
 
 def show_Report():
-    rData = list(dbcollection.find({}).limit(10))
+    rData = list(dbcollection.find().sort("grade", -1).limit(10))
     display(rData)
     
 def display(data):
