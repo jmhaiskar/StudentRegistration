@@ -8,12 +8,12 @@ import json
 dbconnection = pymongo.MongoClient("mongodb+srv://jmhaiskar:aaibaba123@cluster0.sjebylb.mongodb.net")
 db = dbconnection["school"]
 dbcollection = db["students"]
-studentId=10000002
+
 
 # Method to enter new student details
 def AddStudent():
 #    give them a student id
-    
+    studentId=10000002
     fname = input("Please enter your first name")
     lname = input("Please enter your last name")
     email= input("Please enter your email")
@@ -111,18 +111,12 @@ def gradeAssigner():
     
     print(i)
     CGpa = sum/courseNum
-    if(CGpa>=2){
-        print (CGpa)
-        print("You are eligable to apply for graduation.")
-    }
-    else{
-        print (CGpa)
-        print("You are not eligable to apply for graduation")
-    }
+    print (CGpa)
 
 
 def show_Report():
-    rData = list(dbcollection.find().sort("grade", -1).limit(10))
+    courseName=input("Please enter a Course: ")
+    rData = list(dbcollection.find({"courseInfo.course":courseName}).sort("grade", -1).limit(10))
     display(rData)
     
 def display(data):
