@@ -109,7 +109,13 @@ def gradeAssigner()
     
     print(i)
     CGpa = sum/courseNum
-    print (CGpa)
+    if(cGpa>=2){
+        print (CGpa)
+        print("You are eligable to apply for graduation")
+    }else{
+        print (CGpa)
+        print("You can't apply for graduation because your gpa is too low")
+    }
 
 
 def show_Report():
