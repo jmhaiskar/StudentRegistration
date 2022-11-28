@@ -122,5 +122,13 @@ def show_Report():
 def display(data):
     print (data)
 
-
+def show():
+    print("StudentID: ", studendId)
+    print("First name: ", fname)
+    print("Last name: ", lname)
+    print("Email address: ", email)
+    print("Date of birth: ", dob)
+    print("Courses:")
+    for i in range(0, len(course)):
+        print(course[i])
 
