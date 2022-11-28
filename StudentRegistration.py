@@ -8,27 +8,29 @@ import json
 dbconnection = pymongo.MongoClient("mongodb+srv://jmhaiskar:aaibaba123@cluster0.sjebylb.mongodb.net")
 db = dbconnection["sample_geospatial"]
 dbcollection = db["shipwrecks"]
+studentId=10000002
 
 # Method to enter new student details
-def AddStudent(fname, lname, email, address, dob):
-    give them a student id
+def AddStudent():
+#    give them a student id
+    
     fname = input("Please enter your first name")
     lname = input("Please enter your last name")
     email= input("Please enter your email")
-#    address = input("Please enter your address")
+    address = input("Please enter your address")
     dob = input("Please enter your date of birth") #remember to convert to int
     courseInfo=[]
     courseNum=int(input("How many courses would you like to enter?"))
-            for i in range(0,courseNum):
-                courseName = input("Name of the course: ")
-                courseGrade=int(input("What is your grade? "))
-                info= {"course" : courseName , "grade" : courseGrade}
-                courseInfo.append(info)
+    
+    for i in range(0,courseNum):
+            courseName = input("Name of the course: ")
+            courseGrade=int(input("What is your grade? "))
+            info= {"course" : courseName , "grade" : courseGrade}
+            courseInfo.append(info)
                 
-    dbcollection.insert_one({"_id": studentId, "firstname": fname,"lastname": lname, "email": email, "address":address,  "dob":dob, "courseInfo":courseInfo})
+    dbcollection.insert_one({"studentId": studentId, "fname": fname,"lname": lname, "email": email, "address":address,  "dob":dob, "courseInfo":courseInfo})
    
-    "courseInfo" : [{"course" : 1170 , "grade" : 80},{"course" : 1240 , "grade" : 50}]}      
-                  
+studentId+=1
 
     
 # Method to delete a student
