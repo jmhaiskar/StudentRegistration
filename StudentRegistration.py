@@ -1,5 +1,6 @@
 import pymongo
 import json
+import Update
 
 
 # Windows : python -m pip install pymongo[srv]
@@ -122,6 +123,9 @@ def show_Report():
 def display(data):
     print (data)
 
+def UpdateInfo():
+    Update
+    
 def show():
     print("StudentID: ", studendId)
     print("First name: ", fname)
