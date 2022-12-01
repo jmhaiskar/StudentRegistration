@@ -28,7 +28,7 @@ def AddStudent():
             info= {"course" : courseName , "grade" : courseGrade}
             courseInfo.append(info)
     result = dbcollection.find().sort("id", -1).limit(1)
-    dbcollection.insert_one({"studentId": (result[0]["id"]+1), "fname": fname,"lname": lname, "email": email, "address":address,  "dob":dob, "courseInfo":courseInfo})
+    dbcollection.insert_one({"studentId": (result[0]["studentId"]+1), "fname": fname,"lname": lname, "email": email, "address":address,  "dob":dob, "courseInfo":courseInfo})
    
 
 
