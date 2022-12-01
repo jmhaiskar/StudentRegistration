@@ -1,6 +1,5 @@
 import pymongo
 import json
-import Update
 
 
 # Windows : python -m pip install pymongo[srv]
@@ -124,6 +123,7 @@ def display(data):
     print (data)
 
 def UpdateInfo():
+    import Update
     Update
     
 def show():
