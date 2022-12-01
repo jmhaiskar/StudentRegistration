@@ -134,5 +134,7 @@ def show():
     print("Date of birth: ", dob)
     print("Courses:")
     for i in range(0, len(course)):
-        print(course[i])
+        print(course[i]) 
+        
+    
 
