@@ -112,6 +112,11 @@ def gradeAssigner():
     print(i)
     CGpa = sum/courseNum
     print (CGpa)
+    
+    if CGpa > 2.0:
+        print("you are eligible for graduation")
+    else: 
+        print("you are not eligible for graduation")
 
 
 def show_Report():
